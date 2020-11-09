@@ -1,0 +1,56 @@
+body
+{
+    background: #5f0fc8;
+    font-family: "Trebuchet MS";
+}
+.main
+{
+    width:1000px;
+    height:500px;
+    margin: 0 auto;
+    margin-top: 100px ;
+    border: 1px solid ; //should be removed when done
+}
+
+.main .left
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background: blue;
+    border: 1px solid ;
+
+
+}
+
+.main .left h1
+{
+    margin-top: 100px; //makes the strucute under login aligned to the middle
+}
+
+.main .left form input
+{
+    text-align: center;
+    width: 50%;
+    height: 25px;
+    margin-bottom: 5px;
+    border: none;
+    background: #ffffff;
+    border-radius:20px ;
+
+}
+.left form input:focus{outline: none;}
+
+.left form input[type="submit"]
+{
+    background: #901fc8;
+    color: #f5f5f5;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.left form input[type="submit"]:hover
+{
+  background: #100707;
+}
